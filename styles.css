@@ -71,16 +71,26 @@
 /*################## My work ##################*/
 .work-container {
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px 30px;
+	font-family: 'Playfair  Display';
+}
+
+.work-container h1 {
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 40px;
 }
 
 .work-grid {
 	display: flex;
 	justify-content: center;
-	gap: 100px;
-	max-width: 1200px;
+	gap: 120px;
 	flex-wrap: wrap;
-	margin: 0 auto;
-	padding: 25px 30px;
 }
 
 .project {
@@ -110,6 +120,11 @@
 .project-name {
 	display: flex;
 	justify-content: space-between;
+}
+
+.project-icons {
+	display: flex;
+	gap: 10px;
 }
 
 .project-name,
