@@ -4,6 +4,16 @@
 	box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+	font-family: 'Playfair  Display', serif;
+}
+
+p {
+	font-family: 'Roboto', serif;
+}
+
 /*################## About me ##################*/
 .about-container {
 	height: 100vh;
@@ -40,7 +50,6 @@
 	background-color: #ffffff;
 	-webkit-box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
 	box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
-	font-family: 'Playfair  Display';
 }
 
 .about-title {
@@ -50,6 +59,7 @@
 
 .about-p {
 	font-size: 20px;
+	font-weight: 200;
 }
 
 .icons {
@@ -70,7 +80,6 @@
 
 /*################## My work ##################*/
 .work-container {
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -122,6 +131,10 @@
 	justify-content: space-between;
 }
 
+.project-description p {
+	font-weight: 200;
+}
+
 .project-icons {
 	display: flex;
 	gap: 10px;
@@ -134,5 +147,46 @@
 /*##############################################*/
 
 /*################## Contact me ##################*/
+.footer-container {
+	background-color: #0891b2;
+}
 
+.footer {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px 30px;
+	color: #ffffff;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.phone,
+.mail {
+	display: flex;
+	gap: 10px;
+}
+
+.socials {
+	display: flex;
+	gap: 30px;
+}
+
+.footer-icon {
+	height: 40px;
+}
+
+.footer-icon:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.footer-img {
+	height: 300px;
+}
 /*##############################################*/
