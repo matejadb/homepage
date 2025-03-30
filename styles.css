@@ -1,3 +1,69 @@
-h1 {
-	color: purple;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+/*################## About me ##################*/
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(
+		170deg,
+		#0891b2 70%,
+		#ffffff calc(70% + 2px)
+	);
+}
+
+.about-me {
+	display: flex;
+	padding: 25px 30px;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+}
+
+.hero {
+	width: 450px;
+	height: 500px;
+	-webkit-box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
+	box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
+}
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 20px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
+	box-shadow: 3px 2px 27px 2px rgba(0, 0, 0, 0.58);
+	font-family: 'Playfair  Display';
+}
+
+.about-title {
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.about-p {
+	font-size: 20px;
+}
+
+.icons {
+	display: flex;
+	gap: 20px;
+	justify-content: flex-end;
+}
+
+.icon {
+	width: 25px;
+}
+
+.icon:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+/*##############################################*/
