@@ -22,7 +22,7 @@ p {
 	justify-content: center;
 	background-image: linear-gradient(
 		170deg,
-		#0891b2 70%,
+		#046b89 70%,
 		#ffffff calc(70% + 2px)
 	);
 }
@@ -148,7 +148,7 @@ p {
 
 /*################## Contact me ##################*/
 .footer-container {
-	background-color: #0891b2;
+	background-color: #046b89;
 }
 
 .footer {
